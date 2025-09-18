@@ -8,9 +8,8 @@
         data-style="green"
         data-type="strict"
         data-position="center"
-        data-delay="3000"
+        data-delay="1000"
         data-policy-url="/policy.html"
-        data-api-url="https://api.mtk-ru.ru/api/feedback_kredit"
         data-show-timer="true"
         data-timer-duration="600"
         data-force-submit="true"></script>
@@ -24,16 +23,16 @@
 
 | Параметр        | Тип     | Значение по умолчанию                       | Описание                                                            |
 | --------------- | ------- | ------------------------------------------- | ------------------------------------------------------------------- |
-| `domain`        | string  | `window.location.hostname`                  | Домен сайта для передачи в API                                      |
-| `style`         | string  | `green`                                     | Цветовая схема модалки: `green`, `red`, `blue`, `dark`, `light`     |
-| `type`          | string  | `strict`                                    | Тип модалки: `strict`, `urgent`, `consult`                          |
-| `position`      | string  | `center`                                    | Позиция модалки: `center`, `top`, `bottom`                          |
-| `delay`         | number  | `3000`                                      | Задержка появления модалки в миллисекундах                          |
-| `policyUrl`     | string  | `/policy.html`                              | Ссылка на страницу политики конфиденциальности                      |
-| `apiUrl`        | string  | `https://api.mtk-ru.ru/api/feedback_kredit` | URL для отправки данных формы                                       |
-| `showTimer`     | boolean | `true`                                      | Показывать таймер на модалке (только для типов `urgent` и `strict`) |
-| `timerDuration` | number  | `600`                                       | Продолжительность таймера в секундах                                |
-| `forceSubmit`   | boolean | `true`                                      | Если `true`, модалку нельзя закрыть без отправки формы              |
+| `data-domain`        | string  | `window.location.hostname`                  | Домен сайта для передачи в API                                      |
+| `data-style`         | string  | `green`                                     | Цветовая схема модалки: `green`, `red`, `blue`, `dark`, `light`     |
+| `data-type`          | string  | `strict`                                    | Тип модалки: `strict`, `urgent`, `consult`                          |
+| `data-position`      | string  | `center`                                    | Позиция модалки: `center`, `top`, `bottom`                          |
+| `data-delay`         | number  | `3000`                                      | Задержка появления модалки в миллисекундах                          |
+| `data-policy-url`     | string  | `/policy.html`                              | Ссылка на страницу политики конфиденциальности                      |
+| `data-api-url`        | string  | `https://api.mtk-ru.ru/api/feedback_kredit` | URL для отправки данных формы                                       |
+| `data-show-timer`     | boolean | `true`                                      | Показывать таймер на модалке (только для типов `urgent` и `strict`) |
+| `data-timer-duration` | number  | `600`                                       | Продолжительность таймера в секундах                                |
+| `data-force-submit`   | boolean | `true`                                      | Если `true`, модалку нельзя закрыть без отправки формы              |
 
 ---
 
