@@ -115,9 +115,6 @@ widget.hide();  // скрыть модалку (если forceSubmit=false)
 | ![Strict modal](https://github.com/user-attachments/assets/b6d4db3a-c82a-4550-b663-56deb43f3826) | ![Urgent modal](https://github.com/user-attachments/assets/4b274fe9-605b-4e49-9107-567e295d03a2) | ![Consult modal](https://github.com/user-attachments/assets/578efd33-3834-4b25-a519-d39e3de897e9) |
 | Одобрение с просрочками и плохой кредитной историей | Срочная акция — сниженная ставка | Бесплатная консультация |
 
-
-> Замените ссылки на свои файлы в папке `images`.
-
 ---
 
 ## ✅ Особенности
